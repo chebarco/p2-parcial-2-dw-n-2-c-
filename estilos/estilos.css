@@ -1,0 +1,351 @@
+.titulo{
+font-size: 10px;
+color: rgb(158, 154, 154);
+margin-top: 20px;
+margin-bottom: 20px;
+display: inline-block;
+text-align: center;
+margin-left: 30px;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #6c584c;
+}
+
+.precio{
+    color: #d00000;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo img{
+    width: 8%;
+    margin-left: 20px;
+}
+
+
+.navbar{
+    padding-top: 20px !important;
+}
+.carrito-estilo{
+    margin-left: 500px;
+   display: inline-block;
+}
+
+.carrito-icono{
+    margin-left: 30px;
+    display: inline-block;
+    margin-right: 20px !important;
+
+
+}
+
+button{
+    background-color:transparent ;
+    border: none;
+    color: #739b8a;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+button:hover{
+    color: black;
+}
+
+.card-img-top{
+    width: 100%;
+}
+
+.btn-boton{
+    width: 200px;
+    border-radius: 10px;
+    height: 30px;
+    background-color: #739b8a;
+    color: white;
+    margin-left: 0;
+}
+
+#allCompras{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    overflow: scroll;
+    min-height: 400px;
+}
+
+
+#carritoContenedor{
+ text-align: center;
+ margin-bottom: 100px;
+ margin-top: 50px;
+}
+.contenedor{
+    display: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.contenedor h2{
+    font-size: 25px;
+}
+.contenedor h3{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.contenedor input{
+    margin-left: 50px;
+    margin-top: 22px;
+}
+.contenedor p{
+    margin-left: 10px;
+    margin-top: 18px;
+}
+
+.modalcontainer img{
+    width: 10%;
+    margin-left: 50px;
+}
+.modalcontainer{
+    border: rgba(205, 205, 205, 0.848) solid;
+    width: 90%;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#contenedor-form{
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #6c584c;
+    padding: 15px;
+}
+#botones{
+    margin-left: auto;
+    margin-right: auto;
+}
+.preciofinal{
+    font-size: 16px;
+    color: red;
+}
+
+.form-group{
+    margin-top: 20px!important;
+    text-align: center;
+}
+#pTotal{
+    margin-top: 20px!important;
+    text-align: center;
+    font-weight: bold;
+}
+#productosCard{
+display: grid; 
+grid-template-columns: repeat(3, 1fr); 
+grid-template-rows: repeat(4, 1fr); 
+margin-left: 50px;
+margin-bottom: 150px;
+}
+#vaciar-carrito{
+   color:#739b8a  ;
+}
+
+.card-body{
+    border: #739b8a solid;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 80%;
+}
+
+.card-img-top{
+    border-bottom: #739b8a solid;
+}
+
+footer{
+    background-color: #6c584c !important;
+    margin-top: 50px !important;
+}
+#carrito-contenedor{
+   text-align: center;
+   margin-bottom: 20px;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.modal-container{
+    border: rgb(179, 178, 178) solid 1px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.cardText{
+    margin-left: 25px;
+    font-weight: bold;
+}
+#carrito-contenedor img{
+    width: 20%;
+}
+#comprar a{
+    text-decoration: none;
+    color: white;
+}
+
+.hidden{
+    font-size: 12px;
+    display: flex;
+    transition-duration: 2s;
+}
+
+
+#vaciar-carrito{
+    color: white;
+    }
+@media (max-width: 820px) {
+    
+
+    .btn-boton{
+        width: 150px;
+    }
+
+
+  }
+
+  @media (max-width: 650px) {
+    
+    #productosCard{
+           display: grid; 
+grid-template-columns: repeat(1, 1fr); 
+grid-column-gap: 15px;
+grid-row-gap: 15px; 
+margin-left: 37px;
+        }
+
+
+        .modalcontainer{
+            border: rgba(205, 205, 205, 0.848) solid;
+            width: 80%;
+            flex-direction: column;
+        
+        
+        }
+
+        .contenedor{
+            display: inline-block;
+            margin-top: 50px;
+            margin-left: 0px;
+        }
+        .contenedor h2{
+            font-size: 25px;
+        }
+        .contenedor h3{
+            margin-left: 0px;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .contenedor input{
+            margin-left: 0px;
+            margin-top: 22px;
+        }
+        .contenedor p{
+            margin-left: 0px;
+            margin-top: 18px;
+            display: inline-block;
+
+        }
+        .contenedor button{
+            font-size: 15px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .modalcontainer img{
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .form-check-input{
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .contenedor button{
+            font-size: 20px;
+        }
+  }
+
+
+
+@media (max-width: 375px) {
+    
+    #productosCard{
+           display: grid; 
+grid-template-columns: repeat(1, 1fr); 
+grid-column-gap: 15px;
+grid-row-gap: 15px; 
+margin-left: 37px;
+        }
+      
+
+        .modalcontainer{
+            border: rgba(205, 205, 205, 0.848) solid;
+            width: 80%;
+            flex-direction: column;
+        
+        
+        }
+
+        .contenedor{
+            display: inline-block;
+            margin-top: 50px;
+            margin-left: 0px;
+        }
+        .contenedor h2{
+            font-size: 25px;
+        }
+        .contenedor h3{
+            margin-left: 0px;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .contenedor input{
+            margin-left: 0px;
+            margin-top: 22px;
+        }
+        .contenedor p{
+            margin-left: 0px;
+            margin-top: 18px;
+            display: inline-block;
+
+        }
+        .contenedor button{
+            font-size: 15px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .modalcontainer img{
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .form-check-input{
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+  }
